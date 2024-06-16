@@ -3,9 +3,10 @@ class House:
         self.numberOfFloors = 0
 
     def setNewNumberOfFloors(self, floors):
-        if self.numberOfFloors:
-            print(floors)
+        self.numberOfFloors == floors
+        print(self.numberOfFloors)
 
 
 floor_ = House()
 print(floor_.numberOfFloors)
+floor_.setNewNumberOfFloors(5)
